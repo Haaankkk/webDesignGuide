@@ -5,7 +5,7 @@ body {
     grid-template-areas: "header"
         "section"
         "footer";
-    
+
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     text-align: center;
 }
 
-.title p{
+.title p {
     font-size: 20px;
 }
 
@@ -29,14 +29,14 @@ section {
     grid-gap: 10px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "one"
-    "two"
-    "three"
-    "four"
-    "five"
-    "six"
-    "seven"
-    "eight"
-    "nine";
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight"
+        "nine";
 }
 
 .one {
@@ -45,48 +45,56 @@ section {
     border-radius: 12px;
     color: white;
 }
+
 .two {
     grid-area: two;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .three {
     grid-area: three;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .four {
     grid-area: four;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .five {
     grid-area: five;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .six {
     grid-area: six;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .seven {
     grid-area: seven;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .eight {
     grid-area: eight;
     background-color: black;
     border-radius: 12px;
     color: white;
 }
+
 .nine {
     grid-area: nine;
     background-color: black;
@@ -111,9 +119,9 @@ footer {
     section {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: "one two"
-        "three four"
-        "five six"
-        "seven eight"
-        "nine nine";
+            "three four"
+            "five six"
+            "seven eight"
+            "nine nine";
     }
 }
