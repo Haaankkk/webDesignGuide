@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 180px 920px 100px;
+    grid-template-rows: 180px 1400px 100px;
     grid-template-areas: "header"
         "section"
         "footer";
@@ -27,13 +27,16 @@ section {
     background-color: blanchedalmond;
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "one"
     "two"
     "three"
     "four"
     "five"
-    "six";
+    "six"
+    "seven"
+    "eight"
+    "nine";
 }
 
 .one {
@@ -72,6 +75,24 @@ section {
     border-radius: 12px;
     color: white;
 }
+.seven {
+    grid-area: seven;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+.eight {
+    grid-area: eight;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+.nine {
+    grid-area: nine;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
 
 footer {
     grid-area: footer;
@@ -84,13 +105,15 @@ footer {
 
 @media screen and (min-width: 600px) {
     body {
-        grid-template-rows: 180px 500px 100px;
+        grid-template-rows: 180px 1200px 100px;
     }
 
     section {
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: "one two"
         "three four"
-        "five six";
+        "five six"
+        "seven eight"
+        "nine nine";
     }
 }
