@@ -1,0 +1,114 @@
+body {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 180px 920px 100px;
+    grid-template-areas: "header"
+        "section"
+        "footer";
+    
+}
+
+header {
+    grid-area: header;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.title p{
+    font-size: 20px;
+}
+
+section {
+    grid-area: section;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six";
+}
+
+.one {
+    grid-area: one;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.two {
+    grid-area: two;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.three {
+    grid-area: three;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.four {
+    grid-area: four;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.five {
+    grid-area: five;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.six {
+    grid-area: six;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-rows: 180px 500px 100px;
+    }
+
+    section {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "one two"
+        "three four"
+        "five six";
+    }
+}
