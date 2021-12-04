@@ -2,14 +2,14 @@
 
 * {
     font-family: 'Acme', sans-serif;
-    
+
 }
 
 body {
     display: grid;
     grid-gap: 10px;
     grid-template-rows: 100px 180px 920px 100px;
-    grid-template-areas:"navbar" "header"
+    grid-template-areas: "navbar""header"
         "section"
         "footer";
     background-color: linen;
@@ -17,7 +17,7 @@ body {
 
 .navbar {
     grid-area: navbar;
-    display: flex;    
+    display: flex;
 }
 
 .nav-item {
@@ -54,7 +54,7 @@ header {
     text-align: center;
 }
 
-.title p{
+.title h2 {
     font-size: 20px;
 }
 
@@ -64,31 +64,33 @@ section {
     grid-gap: 10px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "one"
-    "two"
-    "three"
-    "four"
-    "five"
-    "six";
+        "two"
+        "three"
+        "four"
+        "five"
+        "six";
 }
 
 .one {
     grid-area: one;
-    background: linear-gradient(to top, #1F487E,  #1D3461);
+    background: linear-gradient(to top, #1F487E, #1D3461);
     border-radius: 12px;
     color: white;
     display: flex;
     align-items: center;
     text-align: center;
 }
+
 .two {
     grid-area: two;
-    background: linear-gradient(to top, #376996,#1F487E);
+    background: linear-gradient(to top, #376996, #1F487E);
     border-radius: 12px;
     color: white;
     display: flex;
     align-items: center;
     text-align: center;
 }
+
 .three {
     grid-area: three;
     background-color: #376996;
@@ -98,27 +100,10 @@ section {
     align-items: center;
     text-align: center;
 }
+
 .four {
     grid-area: four;
-    background: linear-gradient(to top, #3F79AB,#376996);
-    border-radius: 12px;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.five {
-    grid-area: five;
-    background-color:#3F79AB;
-    border-radius: 12px;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.six {
-    grid-area: six;
-    background: linear-gradient(to top,rgb(190, 209, 209),#3F79AB);
+    background: linear-gradient(to top, #3F79AB, #376996);
     border-radius: 12px;
     color: white;
     display: flex;
@@ -126,7 +111,27 @@ section {
     text-align: center;
 }
 
-.section p {
+.five {
+    grid-area: five;
+    background-color: #3F79AB;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.six {
+    grid-area: six;
+    background: linear-gradient(to top, rgb(190, 209, 209), #3F79AB);
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section h2 {
     margin: 1rem 1rem;
     font-size: 120%;
 }
@@ -136,7 +141,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top,white,rgb(190, 209, 209));
+    background: linear-gradient(to top, white, rgb(190, 209, 209));
     color: black;
 }
 
@@ -148,7 +153,7 @@ footer {
     section {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "one two"
-        "three four"
-        "five six";
+            "three four"
+            "five six";
     }
 }

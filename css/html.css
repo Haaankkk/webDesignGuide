@@ -3,11 +3,12 @@
 * {
     font-family: 'Acme', sans-serif;
 }
+
 body {
     display: grid;
     grid-gap: 10px;
     grid-template-rows: 100px 180px 1745px 100px;
-    grid-template-areas: "navbar" "header"
+    grid-template-areas: "navbar""header"
         "section"
         "footer";
     background-color: linen;
@@ -15,7 +16,7 @@ body {
 
 .navbar {
     grid-area: navbar;
-    display: flex;    
+    display: flex;
 }
 
 .nav-item {
@@ -72,7 +73,7 @@ section {
 
 .one {
     grid-area: one;
-    background: linear-gradient(to top, #1F487E,  #1D3461);
+    background: linear-gradient(to top, #1F487E, #1D3461);
     border-radius: 12px;
     color: white;
 }
@@ -86,7 +87,7 @@ section {
 
 .three {
     grid-area: three;
-    background: linear-gradient(to top, #376996,#1F487E);
+    background: linear-gradient(to top, #376996, #1F487E);
     border-radius: 12px;
     color: white;
 }
@@ -100,21 +101,21 @@ section {
 
 .five {
     grid-area: five;
-    background: linear-gradient(to top, #3F79AB,#376996);
+    background: linear-gradient(to top, #3F79AB, #376996);
     border-radius: 12px;
     color: white;
 }
 
 .six {
     grid-area: six;
-    background-color:#3F79AB;
+    background-color: #3F79AB;
     border-radius: 12px;
     color: white;
 }
 
 .seven {
     grid-area: seven;
-    background: linear-gradient(to top,rgb(190, 209, 209),#3F79AB);
+    background: linear-gradient(to top, rgb(190, 209, 209), #3F79AB);
     border-radius: 12px;
     color: black;
 }
@@ -130,8 +131,9 @@ section {
 .section p a {
     text-decoration: underline;
 }
-a{
-    color:aliceblue;
+
+a {
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -141,7 +143,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top,white,rgb(190, 209, 209));
+    background: linear-gradient(to top, white, rgb(190, 209, 209));
     color: black;
 }
 
@@ -150,8 +152,8 @@ form {
     border-radius: 8px;
 }
 
-p{
-    margin-left:5%;
+p {
+    margin-left: 5%;
 }
 
 fieldset {
@@ -213,7 +215,7 @@ button {
 .btn:focus {
     background-size: 500%;
     background-position: right;
-    background-image: linear-gradient(to right, white,rgb(190, 209, 209));
+    background-image: linear-gradient(to right, white, rgb(190, 209, 209));
     color: black;
     cursor: pointer;
 }

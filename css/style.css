@@ -11,7 +11,7 @@ body {
 .grid-column-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 8vh repeat(8,15vh) 9vh;
+    grid-template-rows: 8vh repeat(8, 15vh) 9vh;
     row-gap: 2%;
 }
 
@@ -38,7 +38,7 @@ a {
     transition: all 300ms;
     border-radius: 5px;
 }
-  
+
 a:hover,
 a:focus {
     background-color: #1D3461;
@@ -51,15 +51,15 @@ h1 {
 }
 
 h3 {
-    margin-left:3%;
+    margin-left: 3%;
 }
 
 .title {
     margin-top: 1%;
     grid-row: 2/4;
-    grid-column:1/4;
+    grid-column: 1/4;
     background-color: #1F487E;
-    color:white;
+    color: white;
     height: 100%;
     border-radius: 6px;
     margin: -0.5rem 0rem;
@@ -83,7 +83,7 @@ h3 {
 }
 
 .tips {
-    margin-top:5%;
+    margin-top: 5%;
     grid-column: 1/4;
     grid-row: 8/10;
     margin: 0.5rem 0rem;
@@ -94,7 +94,7 @@ h3 {
     grid-row: 10;
     text-align: center;
     background-color: #1F487E;
-    color:white;
+    color: white;
 }
 
 img {
@@ -105,7 +105,7 @@ img {
 }
 
 h2 {
-    color:#376996;
+    color: #376996;
     margin-top: 0;
 }
 

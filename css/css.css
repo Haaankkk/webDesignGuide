@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-gap: 8px;
     grid-template-rows: 100px 180px 1500px 100px;
-    grid-template-areas: "navbar" "header"
+    grid-template-areas: "navbar""header"
         "section"
         "footer";
     background-color: linen;
@@ -16,7 +16,7 @@ body {
 
 .navbar {
     grid-area: navbar;
-    display: flex;    
+    display: flex;
 }
 
 .nav-item {
@@ -75,14 +75,14 @@ section {
 
 .one {
     grid-area: one;
-    background: linear-gradient(to top, #1F487E,  #1D3461);
+    background: linear-gradient(to top, #1F487E, #1D3461);
     border-radius: 12px;
     color: white;
 }
 
 .two {
     grid-area: two;
-    background: linear-gradient(to top, #1F487E,  #1D3461);
+    background: linear-gradient(to top, #1F487E, #1D3461);
     border-radius: 12px;
     color: white;
 }
@@ -103,35 +103,35 @@ section {
 
 .five {
     grid-area: five;
-    background: linear-gradient(to top, #376996,#1F487E);
+    background: linear-gradient(to top, #376996, #1F487E);
     border-radius: 12px;
     color: white;
 }
 
 .six {
     grid-area: six;
-    background: linear-gradient(to top, #376996,#1F487E);
+    background: linear-gradient(to top, #376996, #1F487E);
     border-radius: 12px;
     color: white;
 }
 
 .seven {
     grid-area: seven;
-    background: linear-gradient(to top, #3F79AB,#376996);
+    background: linear-gradient(to top, #3F79AB, #376996);
     border-radius: 12px;
     color: white;
 }
 
 .eight {
     grid-area: eight;
-    background: linear-gradient(to top, #3F79AB,#376996);
+    background: linear-gradient(to top, #3F79AB, #376996);
     border-radius: 12px;
     color: white;
 }
 
 .nine {
     grid-area: nine;
-    background: linear-gradient(to top,rgb(190, 209, 209),#3F79AB);
+    background: linear-gradient(to top, rgb(190, 209, 209), #3F79AB);
     border-radius: 12px;
     color: white;
 }
@@ -149,7 +149,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top,white,rgb(190, 209, 209));
+    background: linear-gradient(to top, white, rgb(190, 209, 209));
     color: black;
     border-radius: 12px;
 }
