@@ -73,7 +73,7 @@ section {
 
 .one {
     grid-area: one;
-    background: linear-gradient(to top, #1F487E, #1D3461);
+    background: linear-gradient(to bottom, rgb(190, 209, 209), #3F79AB);
     border-radius: 12px;
     color: white;
     display: flex;
@@ -83,7 +83,7 @@ section {
 
 .two {
     grid-area: two;
-    background: linear-gradient(to top, #376996, #1F487E);
+    background: linear-gradient(to bottom, rgb(190, 209, 209), #3F79AB);
     border-radius: 12px;
     color: white;
     display: flex;
@@ -113,7 +113,7 @@ section {
 
 .five {
     grid-area: five;
-    background-color: #3F79AB;
+    background: linear-gradient(to top, #376996, #1F487E);
     border-radius: 12px;
     color: white;
     display: flex;
@@ -123,7 +123,7 @@ section {
 
 .six {
     grid-area: six;
-    background: linear-gradient(to top, rgb(190, 209, 209), #3F79AB);
+    background: linear-gradient(to top, #376996, #1F487E);
     border-radius: 12px;
     color: white;
     display: flex;
