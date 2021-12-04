@@ -1,0 +1,190 @@
+body {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 180px 1745px 100px;
+    grid-template-areas: "header"
+        "section"
+        "footer";
+
+}
+
+header {
+    grid-area: header;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.title p {
+    font-size: 20px;
+}
+
+section {
+    grid-area: section;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight"
+        "nine";
+}
+
+.one {
+    grid-area: one;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+.two {
+    grid-area: two;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+.three {
+    grid-area: three;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+.four {
+    grid-area: four;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+.five {
+    grid-area: five;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+.six {
+    grid-area: six;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+.seven {
+    grid-area: seven;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+
+form{
+    border-radius: 8px;
+}
+
+h2{
+    margin-left:7%;
+}
+
+label{
+    display:block;
+    margin-top:2%;
+    margin-left:7%;
+}
+
+input[type="text"],
+input[type="email"]{
+width:80%;
+border: 2px solid transparent;
+font-size: 16px;
+height: auto;
+outline: 0;
+padding: 15px;
+background-color: #f5f5f5;
+color: #B48291;
+box-shadow: 0 1px 0 rgba(88, 80, 80, 0.03) inset;
+margin-bottom: 30px;
+margin-left:7%;
+transition: all 350ms;
+}
+
+input::placeholder {
+    color: #CEE0DC;
+}
+  
+input:hover,input:focus{
+    border: 2px solid #A5243D;
+}
+
+button {
+    width:80%;
+    padding: 19px 39px 18px 39px;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border:none;
+    display:block;
+    margin-top:2%;
+    margin-bottom:4%;
+    margin-left:7%;
+    transition: background 2s;
+    background-image: linear-gradient(to right, #CEE0DC, #087E8B);
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    color:white;
+}
+
+.btn:hover {
+    background-size: 500%;
+    background-position: right;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aqua;
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-rows: 180px 1500px 100px;
+    }
+
+    section {
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+        grid-template-areas: "one two"
+            "three four"
+            "five six"
+            "seven seven"
+        ;
+    }
+}

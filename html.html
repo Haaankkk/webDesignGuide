@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/html.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>HTML Guide</h1>
+            <p>HTML helps you to build your web!</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="section one">
+            <h2>
+                HTML Elements
+            </h2>
+            <p>
+                A single HTML document consists of many elements. 
+                <br>An element is always started and ended by tags. Between the opening tag and the closing tag is the content. 
+                <br>We can add attributes that contain extra information in the opening tag and even nest some elements together.
+            </p>
+        </div>
+        <div class="section two">
+            <h2>
+                Element Structure
+            </h2>
+            <p>
+                < Elementname Attribute > content < / Elementname >
+            </p>
+        </div>
+        <div class="section three">
+            <h2>
+                Specific Element Names
+            </h2>
+            <p>
+                For headers: h1, h2, h3, h4, h5, and h6. For paragraph: p.
+                <br>For paragraph: p.
+                <br>For images: img with attributes src and alt.
+                <br>For links: a with attribute href. 
+                <br>For unordered lists: ul. For ordered lists: ol. For list item: li.
+                <br>There are also specific element names to distinguish the whole flow of a website, including header, nav, main, footer.
+                <br>When writing the HTML file, it is always better to use these elements than using the general div elements.
+            </p>
+        </div>
+        <div class="section four">
+            <h2>
+                Ways to add content outside HTML
+            </h2>
+            <p>
+                Instead of putting images and links directly into our HTML files, we use their paths to represent them.
+                <br>There are two types of paths.
+                <br>Relative path indicates the place within our root directary.
+                <br>Absolute path leads to the location in the Internet. 
+                <br>Relative path is more stable, while absolute path is easier to find.
+            </p>
+        </div>
+        <div class="section five">
+            <h2>
+                How to check up markup of HTML documents
+            </h2>
+            <p>
+                We need to check the syntax of our codes after finishing coding. <a href="https://validator.w3.org">Markup Validator website</a> is a useful tool.
+            </p>
+        </div>
+        <div class="section six">
+            <h2>
+                Comments
+            </h2>
+            <p>
+                Comments are important in HTML to clarify the meaning of the code. In HTML, we simply use "< !--" and " -->" to add comments.
+            </p>
+        </div>
+        <div class="section seven">
+            <h2>
+                Forms
+            </h2>
+            <p>
+                We can even add forms to interact with our audience under the help of HTML file. The form below is an example.
+            </p>
+            <fieldset>
+                <h2>Sign up for our mailing list!</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="your name" value="" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@gmail.com" value="" required>
+                    
+                <button class="btn" type="submit">Submit</button>
+            </fieldset> 
+            
+        </div>
+    </section>
+
+    <footer>
+        Created by Peifeng He and Xinyue Xing
+    </footer>
+</body>
+
+</html>
