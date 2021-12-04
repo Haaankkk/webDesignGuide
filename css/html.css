@@ -14,8 +14,7 @@ body {
 
 header {
     grid-area: header;
-    background-color: black;
-    border-radius: 12px;
+    background-color: #1D3461;
 }
 
 .title {
@@ -43,69 +42,54 @@ section {
 
 .one {
     grid-area: one;
-    background-color: black;
+    background: linear-gradient(to top, #1F487E,  #1D3461);
     border-radius: 12px;
     color: white;
 }
 
 .two {
     grid-area: two;
-    background-color: black;
+    background-color: #1F487E;
     border-radius: 12px;
     color: white;
 }
 
 .three {
     grid-area: three;
-    background-color: black;
+    background: linear-gradient(to top, #376996,#1F487E);
     border-radius: 12px;
     color: white;
 }
 
 .four {
     grid-area: four;
-    background-color: black;
+    background-color: #376996;
     border-radius: 12px;
     color: white;
 }
 
 .five {
     grid-area: five;
-    background-color: black;
+    background: linear-gradient(to top, #3F79AB,#376996);
     border-radius: 12px;
     color: white;
 }
 
 .six {
     grid-area: six;
-    background-color: black;
+    background-color:#3F79AB;
     border-radius: 12px;
     color: white;
 }
 
 .seven {
     grid-area: seven;
-    background-color: black;
+    background: linear-gradient(to top,rgb(190, 209, 209),#3F79AB);
     border-radius: 12px;
-    color: white;
+    color: black;
 }
 
-.seven p {
-    text-align: center;
-}
 
-.seven h2 {
-    text-align: center;
-    margin: 1rem -2rem;
-}
-
-.section p {
-    margin: 1rem 1rem;
-}
-
-.section h2 {
-    text-align: center;
-}
 
 
 footer {
@@ -113,8 +97,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background: linear-gradient(to top,white,rgb(190, 209, 209));
+    color: black;
 }
 
 
@@ -125,7 +109,12 @@ form {
 h2 {
     margin-left: 7%;
 }
-
+p{
+    margin-left:5%;
+}
+fieldset {
+    border-style: hidden;
+}
 label {
     display: block;
     margin-top: 2%;
@@ -141,7 +130,7 @@ input[type="email"] {
     outline: 0;
     padding: 15px;
     background-color: #f5f5f5;
-    color: #B48291;
+    color: #1D3461;
     box-shadow: 0 1px 0 rgba(88, 80, 80, 0.03) inset;
     margin-bottom: 30px;
     margin-left: 7%;
@@ -154,7 +143,7 @@ input::placeholder {
 
 input:hover,
 input:focus {
-    border: 2px solid #A5243D;
+    border: 2px solid #1D3461;
 }
 
 button {
@@ -170,7 +159,7 @@ button {
     margin-bottom: 4%;
     margin-left: 12%;
     transition: background 2s;
-    background-image: linear-gradient(to right, #CEE0DC, #087E8B);
+    background-image: linear-gradient(to right, #CEE0DC, #376996);
     background-size: 100%;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -181,15 +170,6 @@ button {
 .btn:hover {
     background-size: 500%;
     background-position: right;
-}
-
-a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-a:hover {
-    color: aqua;
 }
 
 
