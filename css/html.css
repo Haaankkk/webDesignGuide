@@ -202,7 +202,7 @@ button {
 
 @media screen and (min-width: 600px) {
     body {
-        grid-template-rows: 180px 1600px 100px;
+        grid-template-rows: 100px 180px 1600px 100px;
     }
 
     section {
