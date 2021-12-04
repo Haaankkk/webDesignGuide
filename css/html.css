@@ -73,35 +73,35 @@ section {
 
 .one {
     grid-area: one;
-    background: linear-gradient(to top, #1F487E, #1D3461);
+    background: linear-gradient(to top, #2e69b6, #1D3461);
     border-radius: 12px;
     color: white;
 }
 
 .two {
     grid-area: two;
-    background-color: #1F487E;
+    background-color: #275086;
     border-radius: 12px;
     color: white;
 }
 
 .three {
     grid-area: three;
-    background: linear-gradient(to top, #376996, #1F487E);
+    background: linear-gradient(to top, #32648f, #1F487E);
     border-radius: 12px;
     color: white;
 }
 
 .four {
     grid-area: four;
-    background-color: #376996;
+    background: linear-gradient(to bottom, #2e69b6, #1D3461);
     border-radius: 12px;
     color: white;
 }
 
 .five {
     grid-area: five;
-    background: linear-gradient(to top, #3F79AB, #376996);
+    background: linear-gradient(to top, #2e69b6, #1D3461);
     border-radius: 12px;
     color: white;
 }

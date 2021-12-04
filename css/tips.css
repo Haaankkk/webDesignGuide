@@ -73,7 +73,7 @@ section {
 
 .one {
     grid-area: one;
-    background: linear-gradient(to bottom, rgb(190, 209, 209), #3F79AB);
+    background: linear-gradient(to bottom, rgb(82, 136, 136), #3F79AB);
     border-radius: 12px;
     color: white;
     display: flex;
@@ -83,7 +83,7 @@ section {
 
 .two {
     grid-area: two;
-    background: linear-gradient(to bottom, rgb(190, 209, 209), #3F79AB);
+    background: linear-gradient(to bottom, rgb(81, 128, 128), #3F79AB);
     border-radius: 12px;
     color: white;
     display: flex;
