@@ -115,7 +115,7 @@ section {
 
 .seven {
     grid-area: seven;
-    background: linear-gradient(to top, rgb(190, 209, 209), #3F79AB);
+    background: linear-gradient(to top, #3F79AB, #376996);
     border-radius: 12px;
     color: black;
 }
