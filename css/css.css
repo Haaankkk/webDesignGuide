@@ -11,6 +11,7 @@ body {
     grid-template-areas: "navbar" "header"
         "section"
         "footer";
+    background-color: linen;
 }
 
 .navbar {
@@ -20,9 +21,11 @@ body {
 
 .nav-item {
     text-decoration: none;
-    margin: 20px 20px;
+    font-size: 140%;
+    margin: 20px 10px;
     background-color: white;
     color: #1D3461;
+    height: 30%;
 }
 
 a {
@@ -32,7 +35,8 @@ a {
     border-radius: 5px;
 }
 
-a:hover {
+a:hover,
+a:focus {
     background-color: #1D3461;
     color: white;
     font-size: 20px;

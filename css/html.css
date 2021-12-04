@@ -10,7 +10,9 @@ body {
     grid-template-areas: "navbar" "header"
         "section"
         "footer";
+    background-color: linen;
 }
+
 .navbar {
     grid-area: navbar;
     display: flex;    
@@ -18,9 +20,11 @@ body {
 
 .nav-item {
     text-decoration: none;
-    margin: 20px 20px;
+    font-size: 140%;
+    margin: 20px 10px;
     background-color: white;
     color: #1D3461;
+    height: 30%;
 }
 
 a {
@@ -30,7 +34,8 @@ a {
     border-radius: 5px;
 }
 
-a:hover {
+a:hover,
+a:focus {
     background-color: #1D3461;
     color: white;
     font-size: 20px;
@@ -39,6 +44,7 @@ a:hover {
 header {
     grid-area: header;
     background-color: #1D3461;
+    border-radius: 12px;
 }
 
 .title {
@@ -113,6 +119,17 @@ section {
     color: black;
 }
 
+.section h2 {
+    text-align: center;
+}
+
+.section p {
+    margin: 1rem 1rem;
+}
+
+.section p a {
+    text-decoration: underline;
+}
 a{
     color:aliceblue;
     text-decoration: none;
@@ -133,15 +150,14 @@ form {
     border-radius: 8px;
 }
 
-h2 {
-    margin-left: 7%;
-}
 p{
     margin-left:5%;
 }
+
 fieldset {
     border-style: hidden;
 }
+
 label {
     display: block;
     margin-top: 2%;
@@ -185,18 +201,21 @@ button {
     margin-top: 2%;
     margin-bottom: 4%;
     margin-left: 12%;
-    transition: background 2s;
-    background-image: linear-gradient(to right, #CEE0DC, #376996);
+    transition: background 1s;
+    background: white;
     background-size: 100%;
-    background-color: transparent;
     background-repeat: no-repeat;
     background-position: 0%;
-    color: white;
+    color: black;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-size: 500%;
     background-position: right;
+    background-image: linear-gradient(to right, white,rgb(190, 209, 209));
+    color: black;
+    cursor: pointer;
 }
 
 

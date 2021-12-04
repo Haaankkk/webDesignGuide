@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 body {
-    margin-left: 5%;
+    margin-left: 4%;
     margin-right: 5%;
     margin-top: 1%;
     margin-bottom: 1%;
+    background-color: linen;
 }
 
 .grid-column-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 8vh repeat(8,15vh) 10vh;
+    grid-template-rows: 8vh repeat(8,15vh) 9vh;
     row-gap: 2%;
 }
 
@@ -21,43 +24,57 @@ body {
 
 .nav-item {
     text-decoration: none;
-    margin: 20px 20px;
+    margin: 20px 24px;
+    padding: 10px 10px;
     background-color: white;
     color: #1D3461;
+    font-size: 130%;
+    height: 40%;
 }
 
 a {
     text-decoration: none;
     padding: 10px;
-    transition: all 200ms;
+    transition: all 300ms;
     border-radius: 5px;
 }
   
-a:hover {
+a:hover,
+a:focus {
     background-color: #1D3461;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
 }
 
-h1{
-    margin-left:3%;
+h1 {
+    margin: 4% 3%;
 }
 
-h3{
+h3 {
     margin-left:3%;
 }
 
 .title {
-    margin-top: -4%;
+    margin-top: 1%;
     grid-row: 2/4;
     grid-column:1/4;
     background-color: #1F487E;
     color:white;
+    height: 100%;
+    border-radius: 6px;
+    margin: -0.5rem 0rem;
+}
+
+.title h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: -1rem 3%;
+    font-size: 88%;
 }
 
 .html {
     grid-column: 1/4;
     grid-row: 4/6;
+    margin: -0.5rem 0rem;
 }
 
 .css {
@@ -69,6 +86,7 @@ h3{
     margin-top:5%;
     grid-column: 1/4;
     grid-row: 8/10;
+    margin: 0.5rem 0rem;
 }
 
 .footer {
