@@ -6,10 +6,34 @@
 body {
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 180px 1745px 100px;
-    grid-template-areas: "header"
+    grid-template-rows: 100px 180px 1745px 100px;
+    grid-template-areas: "navbar" "header"
         "section"
         "footer";
+}
+.navbar {
+    grid-area: navbar;
+    display: flex;    
+}
+
+.nav-item {
+    text-decoration: none;
+    margin: 20px 20px;
+    background-color: white;
+    color: #1D3461;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    transition: all 200ms;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #1D3461;
+    color: white;
+    font-size: 20px;
 }
 
 header {
@@ -92,10 +116,6 @@ section {
 a{
     color:aliceblue;
     text-decoration: none;
-}
-
-a:hover{
-    font size:15px;
 }
 
 
