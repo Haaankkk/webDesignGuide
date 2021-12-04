@@ -89,7 +89,14 @@ section {
     color: black;
 }
 
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
 
+a:hover{
+    font size:15px;
+}
 
 
 footer {
