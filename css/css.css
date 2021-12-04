@@ -6,7 +6,7 @@
 
 body {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 8px;
     grid-template-rows: 180px 1500px 100px;
     grid-template-areas: "header"
         "section"
@@ -17,6 +17,7 @@ body {
 header {
     grid-area: header;
     background-color: black;
+    border-radius: 12px;
 }
 
 .title {

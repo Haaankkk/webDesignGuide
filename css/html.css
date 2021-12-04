@@ -10,12 +10,12 @@ body {
     grid-template-areas: "header"
         "section"
         "footer";
-
 }
 
 header {
     grid-area: header;
     background-color: black;
+    border-radius: 12px;
 }
 
 .title {
@@ -43,8 +43,7 @@ section {
 
 .one {
     grid-area: one;
-    background-image: url(../img/background.jpg);
-    background-size: cover;
+    background-color: black;
     border-radius: 12px;
     color: white;
 }

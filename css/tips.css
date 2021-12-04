@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    font-family: 'Acme', sans-serif;
+}
+
 body {
     display: grid;
     grid-gap: 10px;
@@ -11,6 +17,7 @@ body {
 header {
     grid-area: header;
     background-color: black;
+    border-radius: 12px;
 }
 
 .title {
@@ -24,7 +31,6 @@ header {
 
 section {
     grid-area: section;
-    background-color: blanchedalmond;
     display: grid;
     grid-gap: 10px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -89,6 +95,11 @@ section {
     display: flex;
     align-items: center;
     text-align: center;
+}
+
+.section p {
+    margin: 1rem 1rem;
+    font-size: 120%;
 }
 
 footer {
