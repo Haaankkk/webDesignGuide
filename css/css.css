@@ -7,16 +7,40 @@
 body {
     display: grid;
     grid-gap: 8px;
-    grid-template-rows: 180px 1500px 100px;
-    grid-template-areas: "header"
+    grid-template-rows: 100px 180px 1500px 100px;
+    grid-template-areas: "navbar" "header"
         "section"
         "footer";
+}
 
+.navbar {
+    grid-area: navbar;
+    display: flex;    
+}
+
+.nav-item {
+    text-decoration: none;
+    margin: 20px 20px;
+    background-color: white;
+    color: #1D3461;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    transition: all 200ms;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #1D3461;
+    color: white;
+    font-size: 20px;
 }
 
 header {
     grid-area: header;
-    background-color: black;
+    background-color: #1D3461;
     border-radius: 12px;
 }
 
@@ -47,63 +71,63 @@ section {
 
 .one {
     grid-area: one;
-    background-color: black;
+    background: linear-gradient(to top, #1F487E,  #1D3461);
     border-radius: 12px;
     color: white;
 }
 
 .two {
     grid-area: two;
-    background-color: black;
+    background: linear-gradient(to top, #1F487E,  #1D3461);
     border-radius: 12px;
     color: white;
 }
 
 .three {
     grid-area: three;
-    background-color: black;
+    background-color: #1F487E;
     border-radius: 12px;
     color: white;
 }
 
 .four {
     grid-area: four;
-    background-color: black;
+    background-color: #1F487E;
     border-radius: 12px;
     color: white;
 }
 
 .five {
     grid-area: five;
-    background-color: black;
+    background: linear-gradient(to top, #376996,#1F487E);
     border-radius: 12px;
     color: white;
 }
 
 .six {
     grid-area: six;
-    background-color: black;
+    background: linear-gradient(to top, #376996,#1F487E);
     border-radius: 12px;
     color: white;
 }
 
 .seven {
     grid-area: seven;
-    background-color: black;
+    background: linear-gradient(to top, #3F79AB,#376996);
     border-radius: 12px;
     color: white;
 }
 
 .eight {
     grid-area: eight;
-    background-color: black;
+    background: linear-gradient(to top, #3F79AB,#376996);
     border-radius: 12px;
     color: white;
 }
 
 .nine {
     grid-area: nine;
-    background-color: black;
+    background: linear-gradient(to top,rgb(190, 209, 209),#3F79AB);
     border-radius: 12px;
     color: white;
 }
@@ -121,14 +145,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background: linear-gradient(to top,white,rgb(190, 209, 209));
+    color: black;
     border-radius: 12px;
 }
 
 @media screen and (min-width: 600px) {
     body {
-        grid-template-rows: 180px 1100px 100px;
+        grid-template-rows: 100px 180px 1100px 100px;
     }
 
     section {
