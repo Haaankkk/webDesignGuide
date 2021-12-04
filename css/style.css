@@ -1,7 +1,7 @@
 body {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 0;
+    margin-top: 1%;
 }
 
 .grid-column-layout {
@@ -13,11 +13,9 @@ body {
 
 .navbar {
     display: flex;
-    grid-column: 1/4;
+    grid-column: 3;
     grid-row: 1;
-    margin-top: 25px;
-    column-gap: 15%;
-    font-size: 26px;
+    justify-self: flex-end;
 }
 
 .nav-item {
@@ -75,13 +73,6 @@ h2 {
 
 
 @media screen and (min-width: 600px) {
-    .navbar {
-        grid-column: 3;
-        grid-row: 1;
-        margin-top: 25px;
-        column-gap: 15%;
-    }
-
     .intro {
         margin-top: -5%;
         grid-column: 1/4;
